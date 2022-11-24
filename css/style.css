@@ -1,0 +1,76 @@
+/* ======================= CUSTOM STYLES START ======================= */
+:root {
+    --color-1: #fff;
+}
+
+html,
+body {
+    font-family: Helvetica, sans-serif;
+    background: radial-gradient(#aae770, #267450);
+}
+
+#app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: auto;
+    width: 500px;
+    height: 450px;
+    background: #299965;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+h3 {
+    margin-bottom: 1rem;
+    font-weight: normal;
+    color: white;
+}
+
+img {
+    border-radius: 50%;
+    border: 5px #333 solid;
+    margin-bottom: 1rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.male {
+    border-color: steelblue;
+    background-color: steelblue;
+}
+
+.female {
+    border-color: pink;
+    background-color: pink;
+    color: #333;
+}
+
+button {
+    cursor: pointer;
+    display: inline-block;
+    background: #333;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    padding: 1rem 1.5rem;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    transform: scale(0.98);
+}
